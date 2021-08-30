@@ -1,9 +1,10 @@
-import CodeContainer from './components/code-container/code-container';
+// import CodeContainer from './components/code-container/code-container';
+import TextEditor from './components/text-editor/text-editor';
 
 function App() {
   return (
     <div>
-      <CodeContainer />
+      <TextEditor  />
     </div>
   );
 }
