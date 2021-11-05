@@ -1,8 +1,13 @@
-import ReactDOM from "react-dom";
-import App from './App';
-import 'bulmaswatch/slate/bulmaswatch.min.css';
+import 'bulmaswatch/darkly/bulmaswatch.min.css';
+import ReactDOM from 'react-dom';
+import TextEditor from './components/text-editor/text-editor';
 
-ReactDOM.render(
-  <App />,
-  document.querySelector('#root')
-);
+const App = () => {
+  return (
+    <div>
+      <TextEditor />
+    </div>
+  );
+};
+
+ReactDOM.render(<App />, document.querySelector('#root'));

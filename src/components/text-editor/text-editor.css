@@ -2,6 +2,7 @@
   line-height: unset;
   font-size: unset;
   font-weight: unset;
+  color: #d4d4d4 !important;
 }
 
 .w-md-editor ul {
@@ -13,14 +14,14 @@
 }
 
 .text-editor .w-md-editor-bar {
+  background-image: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAB4AAAAFAQMAAABo7865AAAABlBMVEVHcEzMzMzyAv2sAAAAAXRSTlMAQObYZgAAABBJREFUeF5jOAMEEAIEEFwAn3kMwcB6I2AAAAAASUVORK5CYII=');
   height: 11px;
   cursor: row-resize;
-  width: 100%;
-  position: relative;
   background-color: #37414b;
   background-repeat: no-repeat;
   background-position: 50%;
-  background-image: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAB4AAAAFAQMAAABo7865AAAABlBMVEVHcEzMzMzyAv2sAAAAAXRSTlMAQObYZgAAABBJREFUeF5jOAMEEAIEEFwAn3kMwcB6I2AAAAAASUVORK5CYII=');
+  width: 100%;
+  position: relative;
 }
 
 .text-editor em {

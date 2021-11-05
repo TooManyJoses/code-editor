@@ -3,7 +3,6 @@ import { unpkgPathPlugin } from './plugins/unpkg-path-plugin';
 import { fetchPlugin } from './plugins/fetch-plugin';
 
 let service: esbuild.Service;
-// eslint-disable-next-line import/no-anonymous-default-export
 const bundle = async (rawCode: string) => {
   if (!service) {
     service = await esbuild.startService({
@@ -28,10 +27,10 @@ const bundle = async (rawCode: string) => {
       code: result.outputFiles[0].text,
       err: '',
     };
-  } catch (error) {
+  } catch (err) {
     return {
       code: '',
-      err: error.message,
+      err: err.message,
     };
   }
 };
