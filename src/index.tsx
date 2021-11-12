@@ -2,7 +2,6 @@ import 'bulmaswatch/darkly/bulmaswatch.min.css';
 import ReactDOM from 'react-dom';
 import { Provider } from 'react-redux';
 import { store } from './state';
-import TextEditor from './components/text-editor/text-editor';
 import CellList from './components/cell-list/cell-list';
 
 const App = () => {
