@@ -11,7 +11,7 @@ const CellListItem: React.FC<CellListItemProp> = ({ cell }) => {
     {
       cell.type === 'code'
         ? <CodeCell cell={cell} />
-        : <TextEditor />
+        : <TextEditor cell={cell} />
     }
   </div>;
 }
