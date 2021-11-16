@@ -36,7 +36,7 @@ const reducer = produce((state: StateOfCells = initialState, action: Action) => 
       state.order[index] = state.order[targetIndex];
       state.order[targetIndex] = action.payload.id;
       return state;
-    case ActionType.INSERT_CELL_BEFORE:
+    case ActionType.INSERT_CELL_AFTER:
       const cell: Cell = {
         id: randomId(),
         type: action.payload.type,
